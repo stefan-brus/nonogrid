@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grid-row {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-cell {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.last-row {
+    border-bottom: 1px solid;
+}
+
+.last-cell {
+    border-right: 1px solid;
+}
+
+#grid {
+    border-collapse: collapse;
+    cursor: pointer;
+}

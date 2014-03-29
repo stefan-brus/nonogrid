@@ -1,4 +1,4 @@
-var Grid = function(rows, cols) {
+function Grid(rows, cols) {
     /////////////////////
     // GRID PROPERTIES //
     /////////////////////
@@ -8,14 +8,14 @@ var Grid = function(rows, cols) {
 
     // 2-dimensional array containing the cells
     this.cells = [];
+}
 
-    this.init = function() {
-        for(var i = 0; i < rows; i++) {
-            this.cells.push([]);
+Grid.prototype.init = function() {
+    for(var i = 0; i < this.rows; i++) {
+        this.cells.push([]);
 
-            for(var j = 0; j < cols; j++) {
-                this.cells[i].push(CellState.EMPTY);
-            }
+        for(var j = 0; j < this.cols; j++) {
+            this.cells[i].push(CellState.EMPTY);
         }
     }
 }

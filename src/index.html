@@ -4,25 +4,19 @@
 <meta charset="UTF-8" />
 <title>Nonogrid</title>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
 
-<script type="text/javascript" src="grid.js"></script>
-<script type="text/javascript" src="game.js"></script>
 <script type="text/javascript" src="script.js"></script>
 
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-<h1>Nonogrid</h1>
-<table id="grid">
-<tbody>
-<tr class="grid-row" id="row1"><td class="grid-cell" id="col1"> </td><td class="grid-cell" id="col2"> </td><td class="grid-cell" id="col3"> </td><td class="grid-cell" id="col4"> </td><td class="grid-cell last-cell" id="col5"> </td></tr>
-<tr class="grid-row" id="row2"><td class="grid-cell" id="col1"> </td><td class="grid-cell" id="col2"> </td><td class="grid-cell" id="col3"> </td><td class="grid-cell" id="col4"> </td><td class="grid-cell last-cell" id="col5"> </td></tr>
-<tr class="grid-row" id="row3"><td class="grid-cell" id="col1"> </td><td class="grid-cell" id="col2"> </td><td class="grid-cell" id="col3"> </td><td class="grid-cell" id="col4"> </td><td class="grid-cell last-cell" id="col5"> </td></tr>
-<tr class="grid-row" id="row4"><td class="grid-cell" id="col1"> </td><td class="grid-cell" id="col2"> </td><td class="grid-cell" id="col3"> </td><td class="grid-cell" id="col4"> </td><td class="grid-cell last-cell" id="col5"> </td></tr>
-<tr class="grid-row" id="row5"><td class="grid-cell last-row" id="col1"> </td><td class="grid-cell last-row" id="col2"> </td><td class="grid-cell last-row" id="col3"> </td><td class="grid-cell last-row" id="col4"> </td><td class="grid-cell last-row last-cell" id="col5"> </td></tr>
-</tbody>
-</table>
+  <h1>Nonogrid</h1>
+  <table>
+    <tbody class="grid"/>
+  </table>
 </body>
 </html>

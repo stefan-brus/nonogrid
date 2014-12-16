@@ -17,9 +17,36 @@ body {
   display: block;
 }
 
+.col-numbers {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.head-col {
+  border-left: 1px solid;
+  border-top: 1px solid;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: bottom;
+  white-space: pre-line;
+}
+
 .grid-row {
   margin: 0;
   padding: 0;
+}
+
+.row-numbers {
+  border-left: 1px solid;
+  border-top: 1px solid;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
 }
 
 .grid-cell {
